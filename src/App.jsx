@@ -38,10 +38,8 @@ function App() {
                     <Fruitbox setName="Appels" image={appel} count={appels} setCount={setAppels}/>
                     <Fruitbox setName="Kiwi's" image={kiwi} count={kiwis} setCount={setKiwis}/>
 
-                    <button className="primary-btn" onClick={() => {
-                        reset()
-                    }}>Reset
-                    </button>
+                    <button className="primary-btn" onClick={() => {reset()}}>Reset</button>
+
                 </section>
                 <section className="inner-container">
                     <form>
